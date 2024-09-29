@@ -16,9 +16,9 @@ func BigBark() string {
 }
 
 func BigBarks() string {
-	return dog.WhenGrownUp(Bark()) + " " + dog.WhenGrownUp(Bark())
+	return dog.WhenGrownUp(Bark())
 }
 
 func BigBarksNewVersion() string {
-	return dog.WhenGrownUp(Bark()) + " " + dog.WhenGrownUp(Bark())
+	return dog.WhenGrownUp(Bark())
 }
